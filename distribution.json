@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "distributionUrl": "https://raw.githubusercontent.com/viltonpl/Cobblemon-Server/main/distribution.json",
+  "rss": "https://discord.gg/seuservidor",
+  "discord": {
+    "clientId": "1234567890",
+    "smallImageText": "Meu Servidor Cobblemon",
+    "smallImageKey": "logo.png"
+  },
+  "servers": [
+    {
+      "id": "meuservidor-1.21.1",
+      "name": "Meu Servidor Cobblemon (1.21.1)",
+      "description": "Servidor com modpack completo",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "seuservidor.com.br",
+      "minecraftVersion": "1.21.1",
+      "mainServer": true,
+      "autoconnect": false,
+      "javaOptions": {
+        "supported": ">=21",
+        "suggestedMajor": 21
+      },
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.10",
+          "name": "Fabric Loader",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387408,
+            "MD5": "239d59118dec4324672b3d9e9d75efef",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+          }
+        },
+        {
+        "id": "modpack-complete@1.0.0",
+        "name": "Modpack Completo",
+        "type": "Modpack",
+        "artifact": {
+          "size": 662507531,
+          "MD5": "e631e5e94d8d0f53b6ec5809c8e5f5fe",
+          "url": "https://github.com/viltonpl/Cobblemon-Server/releases/download/v1.0.0/modpack.zip"
+        }
+      }
+      ]
+    }
+  ]
+}
